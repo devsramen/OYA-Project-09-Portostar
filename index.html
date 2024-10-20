@@ -1,420 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name='keywords' content='your, tags'>
-    <meta name='description' content='This is bootstrap project'>
-    <meta name='subject' content='your websites subject'>
-    <meta name='copyright' content='company name'>
-    <meta name='language' content='ES'>
-    <meta name='robots' content='index,follow'>
-    <meta name='revised' content='Sunday, July 18th, 2010, 5:15 pm'>
-    <meta name='abstract' content=''>
-    <meta name='topic' content=''>
-    <meta name='summary' content=''>
-    <meta name='Classification' content='Business'>
-    <meta name='author' content='Ramen Biswas, ramen@devsramen.com'>
-    <meta name='designer' content=''>
-    <meta name='reply-to' content='email@hotmail.com'>
-    <meta name='owner' content=''>
-    <meta name='url' content='http://www.websiteaddrress.com'>
-    <meta name='identifier-URL' content='http://www.websiteaddress.com'>
-    <meta name='directory' content='submission'>
-    <meta name='pagename' content='jQuery Tools, Tutorials and Resources - O'Reilly Media'>
-    <meta name='category' content=''>
-    <meta name='coverage' content='Worldwide'>
-    <meta name='distribution' content='Global'>
-    <meta name='rating' content='General'>
-    <meta name='revisit-after' content='7 days'>
-    <meta name='subtitle' content='This is my subtitle'>
-    <meta name='target' content='all'>
-    <meta name='HandheldFriendly' content='True'>
-    <meta name='MobileOptimized' content='320'>
-    <meta name='date' content='Sep. 27, 2010'>
-    <meta name='search_date' content='2010-09-27'>
-    <meta name='DC.title' content='Unstoppable Robot Ninja'>
-    <meta name='ResourceLoaderDynamicStyles' content=''>
-    <meta name='medium' content='blog'>
-    <meta name='syndication-source' content='https://mashable.com/2008/12/24/free-brand-monitoring-tools/'>
-    <meta name='original-source' content='https://mashable.com/2008/12/24/free-brand-monitoring-tools/'>
-    <meta name='verify-v1' content='dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I='>
-    <meta name='y_key' content='1e39c508e0d87750'>
-    <meta name='pageKey' content='guest-home'>
-    <meta itemprop='name' content='jQTouch'>
-    <meta http-equiv='Expires' content='0'>
-    <meta http-equiv='Pragma' content='no-cache'>
-    <meta http-equiv='Cache-Control' content='no-cache'>
-    <meta http-equiv='imagetoolbar' content='no'>
-    <meta http-equiv='x-dns-prefetch-control' content='off'>
+    <meta name="keywords" content="your, tags" />
+    <meta name="description" content="This is bootstrap project" />
+    <meta name="subject" content="your websites subject" />
+    <meta name="copyright" content="company name" />
+    <meta name="language" content="ES" />
+    <meta name="robots" content="index,follow" />
+    <meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" />
+    <meta name="abstract" content="" />
+    <meta name="topic" content="" />
+    <meta name="summary" content="" />
+    <meta name="Classification" content="Business" />
+    <meta name="author" content="Ramen Biswas, ramen@devsramen.com" />
+    <meta name="designer" content="" />
+    <meta name="reply-to" content="email@hotmail.com" />
+    <meta name="owner" content="" />
+    <meta name="url" content="http://www.websiteaddrress.com" />
+    <meta name="identifier-URL" content="http://www.websiteaddress.com" />
+    <meta name="directory" content="submission" />
+    <meta name='pagename' content='jQuery Tools, Tutorials and Resources -
+    O'Reilly Media'>
+    <meta name="category" content="" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="subtitle" content="This is my subtitle" />
+    <meta name="target" content="all" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="date" content="Sep. 27, 2010" />
+    <meta name="search_date" content="2010-09-27" />
+    <meta name="DC.title" content="Unstoppable Robot Ninja" />
+    <meta name="ResourceLoaderDynamicStyles" content="" />
+    <meta name="medium" content="blog" />
+    <meta
+      name="syndication-source"
+      content="https://mashable.com/2008/12/24/free-brand-monitoring-tools/"
+    />
+    <meta
+      name="original-source"
+      content="https://mashable.com/2008/12/24/free-brand-monitoring-tools/"
+    />
+    <meta
+      name="verify-v1"
+      content="dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I="
+    />
+    <meta name="y_key" content="1e39c508e0d87750" />
+    <meta name="pageKey" content="guest-home" />
+    <meta itemprop="name" content="jQTouch" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="x-dns-prefetch-control" content="off" />
 
     <!-- Google font Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Portostar</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS File -->
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <!-- Custom CSS File -->
-     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- nav start -->
     <nav class="navbar navbar-expand-lg py-0">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./images/navLogo.png" alt="NAV Logo" width="121" height="auto" class="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">about us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">works</a>
-              </li>
-            </ul>
-            <a href="#" class="commonBtn active py-xxl-2 px-xxl-4">hire me <i class="fa-regular fa-envelope m-s5"></i></a>
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./images/navLogo.png"
+            alt="NAV Logo"
+            width="121"
+            height="auto"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">works</a>
+            </li>
+          </ul>
+          <a href="#" class="commonBtn active py-xxl-2 px-xxl-4"
+            >hire me <i class="fa-regular fa-envelope m-s5"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- banner start -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6">
+            <p class="secSubTitle mb-xxl-4">DAVID FLASH</p>
+            <h1 class="bannerTitle">
+              Hello, my name's David. I'm graphic designer.
+            </h1>
+            <a href="#" class="commonBtn active py-xxl-4 px-xxl-5"
+              ><i class="fa-regular fa-envelope me-1"></i>contact me</a
+            >
+            <a href="./Demo-CV.pdf" target="_blank" class="commonBtn py-xxl-4 px-xxl-5"
+              ><i class="fa-solid fa-download me-1"></i>download cv</a
+            >
+          </div>
+          <div class="col-xxl-6">
+            <img
+              src="./images/bannerImage.png"
+              alt="Bnner image"
+              class="img-fluid"
+            />
           </div>
         </div>
-      </nav>
-    <!-- nav end -->
-    
-    <!-- banner start -->
-     <section id="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-6">
-                    <p class="secSubTitle mb-xxl-4">DAVID FLASH</p>
-                    <h1 class="bannerTitle">Hello, my name's David. I'm graphic designer.</h1>
-                    <a href="#" class="commonBtn active py-xxl-4 px-xxl-5"><i class="fa-regular fa-envelope me-1"></i>contact me</a>
-                    <a href="#" class="commonBtn py-xxl-4 px-xxl-5"><i class="fa-solid fa-download me-1"></i>download cv</a>
-                </div>
-                <div class="col-xxl-6">
-                    <img src="./images/bannerImage.png" alt="Bnner image" class="img-fluid">
-                </div>
-            </div>
-        </div>
-     </section>
+      </div>
+    </section>
     <!-- banner end -->
 
     <!-- counter start -->
-     <section id="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-3 text-center">
-                    <span>100+</span>
-                    <p>PROJECTS</p>
-                </div>
-                <div class="col-xxl-3 text-center">
-                    <span>24</span>
-                    <p>WINNING AWARD</p>
-                </div>
-                <div class="col-xxl-3 text-center">
-                    <span>70+</span>
-                    <p>HAPPY CLIENTS</p>
-                </div>
-                <div class="col-xxl-3 text-center">
-                    <span>10</span>
-                    <p>YEAR EXPERIENCE</p>
-                </div>
-            </div>
+    <section id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3 text-center">
+            <span>100+</span>
+            <p>PROJECTS</p>
+          </div>
+          <div class="col-xxl-3 text-center">
+            <span>24</span>
+            <p>WINNING AWARD</p>
+          </div>
+          <div class="col-xxl-3 text-center">
+            <span>70+</span>
+            <p>HAPPY CLIENTS</p>
+          </div>
+          <div class="col-xxl-3 text-center">
+            <span>10</span>
+            <p>YEAR EXPERIENCE</p>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
     <!-- counter end -->
-    
+
     <!-- service start -->
     <!-- service end -->
-    
+
     <!-- nav start -->
-     <section id="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="secSubTitle text-center mb-3">SERVICES</p>
-                    <h2 class="secTitle text-center mb-3">What I Do For My Customer.</h2>
-                    <p class=" secDetails text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xxl-4">
-                    <div class="card border-0 text-center">
-                        <div class="card-head mb-xxl-5">
-                            <img src="./images/serviceCardImg_1.png" alt="serviceCardImg" width="40" height="40">
-                        </div>
-                        <div class="card-body">
-                            <h3>UI/UX Design</h3>
-                            <p class="mt-xxl-2">
-                                lorem ipsum dolor sit amet consectur adi pising leo
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-4">
-                    <div class="card border-0 text-center">
-                        <div class="card-head mb-xxl-5">
-                            <img src="./images/serviceCardImg_2.png" alt="serviceCardImg" width="40" height="40">
-                        </div>
-                        <div class="card-body">
-                            <h3>Product Design</h3>
-                            <p class="mt-xxl-2">
-                                lorem ipsum dolor sit amet consectur adi pising leo
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-4">
-                    <div class="card border-0 text-center">
-                        <div class="card-head mb-xxl-5">
-                            <img src="./images/serviceCardImg_3.png" alt="serviceCardImg" width="40" height="40">
-                        </div>
-                        <div class="card-body">
-                            <h3>Motion Graphics</h3>
-                            <p class="mt-xxl-2">
-                                lorem ipsum dolor sit amet consectur adi pising leo
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="secSubTitle text-center mb-3">SERVICES</p>
+            <h2 class="secTitle text-center mb-3">
+              What I Do For My Customer.
+            </h2>
+            <p class="secDetails text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+          </div>
         </div>
-     </section>
+        <div class="row">
+          <div class="col-xxl-4">
+            <div class="card border-0 text-center">
+              <div class="card-head mb-xxl-5">
+                <img
+                  src="./images/serviceCardImg_1.png"
+                  alt="serviceCardImg"
+                  width="40"
+                  height="40"
+                />
+              </div>
+              <div class="card-body">
+                <h3>UI/UX Design</h3>
+                <p class="mt-xxl-2">
+                  lorem ipsum dolor sit amet consectur adi pising leo
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4">
+            <div class="card border-0 text-center">
+              <div class="card-head mb-xxl-5">
+                <img
+                  src="./images/serviceCardImg_2.png"
+                  alt="serviceCardImg"
+                  width="40"
+                  height="40"
+                />
+              </div>
+              <div class="card-body">
+                <h3>Product Design</h3>
+                <p class="mt-xxl-2">
+                  lorem ipsum dolor sit amet consectur adi pising leo
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4">
+            <div class="card border-0 text-center">
+              <div class="card-head mb-xxl-5">
+                <img
+                  src="./images/serviceCardImg_3.png"
+                  alt="serviceCardImg"
+                  width="40"
+                  height="40"
+                />
+              </div>
+              <div class="card-body">
+                <h3>Motion Graphics</h3>
+                <p class="mt-xxl-2">
+                  lorem ipsum dolor sit amet consectur adi pising leo
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- nav end -->
 
     <!-- graphic start -->
-     <section id="graphic">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-6">
-                    <p class="secSubTitle mb-3">SERVICES</p>
-                    <h2 class="secTitle mb-3">Graphic Designer With 10 Years Of Experience.</h2>
-                    <p class=" secDetails">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-                    </p>
-                    <a href="#" class="commonBtn active py-xxl-4 px-xxl-5"><i class="fa-regular fa-envelope me-1"></i>contact me</a>
-                </div>
-            </div>
+    <section id="graphic">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6">
+            <p class="secSubTitle mb-3">SERVICES</p>
+            <h2 class="secTitle mb-3">
+              Graphic Designer With 10 Years Of Experience.
+            </h2>
+            <p class="secDetails">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+            <a href="#" class="commonBtn active py-xxl-4 px-xxl-5"
+              ><i class="fa-regular fa-envelope me-1"></i>contact me</a
+            >
+          </div>
         </div>
-        <img src="./images/graphicImage.png" alt="graphicImage" class="graphicImage">
-     </section>
+      </div>
+      <img
+        src="./images/graphicImage.png"
+        alt="graphicImage"
+        class="graphicImage"
+      />
+    </section>
     <!-- graphic end -->
 
     <!-- client start -->
-     <section id="client">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-3">
-                    <img src="./images/clientImage_1.png" alt="client Image" width="226" height="auto">
-                </div>
-                <div class="col-xxl-3">
-                    <img src="./images/clientImage_2.png" alt="client Image" width="226" height="auto">
-                </div>
-                <div class="col-xxl-3">
-                    <img src="./images/clientImage_3.png" alt="client Image" width="226" height="auto">
-                </div>
-                <div class="col-xxl-3">
-                    <img src="./images/clientImage_4.png" alt="client Image" width="226" height="auto">
-                </div>
-            </div>
+    <section id="client">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3">
+            <img
+              src="./images/clientImage_1.png"
+              alt="client Image"
+              width="226"
+              height="auto"
+            />
+          </div>
+          <div class="col-xxl-3">
+            <img
+              src="./images/clientImage_2.png"
+              alt="client Image"
+              width="226"
+              height="auto"
+            />
+          </div>
+          <div class="col-xxl-3">
+            <img
+              src="./images/clientImage_3.png"
+              alt="client Image"
+              width="226"
+              height="auto"
+            />
+          </div>
+          <div class="col-xxl-3">
+            <img
+              src="./images/clientImage_4.png"
+              alt="client Image"
+              width="226"
+              height="auto"
+            />
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
     <!-- client end -->
 
-     <!-- portfolio start -->
-     <section id="portfolio">
-        <div class="container">
-            <div class="row pb-xxl-5">
-                <div class="col-xxl-6">
-                    <p class="secSubTitle mb-3">portfolio</p>
-                    <h2 class="secTitle py-0 mb-0">Selected Works.</h2>
-                </div>
-                <div class="col-xxl-6">
-                    <p class=" secDetails mb-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-xxl-5">
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="card-head">
-                            <img src="./images/portfollioImage_1.png" width="100%" height="auto" alt="portfollioImage_1">
-                        </div>
-                        <div class="card-body px-xxl-5">
-                            <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
-                            <p>UI/UX Design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="card-head">
-                            <img src="./images/portfollioImage_1.png" width="100%" height="auto" alt="portfollioImage_1">
-                        </div>
-                        <div class="card-body px-xxl-5">
-                            <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
-                            <p>UI/UX Design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="card-head">
-                            <img src="./images/portfollioImage_1.png" width="100%" height="auto" alt="portfollioImage_1">
-                        </div>
-                        <div class="card-body px-xxl-5">
-                            <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
-                            <p>UI/UX Design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="card-head">
-                            <img src="./images/portfollioImage_1.png" width="100%" height="auto" alt="portfollioImage_1">
-                        </div>
-                        <div class="card-body px-xxl-5">
-                            <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
-                            <p>UI/UX Design</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- portfolio start -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row pb-xxl-5">
+          <div class="col-xxl-6">
+            <p class="secSubTitle mb-3">portfolio</p>
+            <h2 class="secTitle py-0 mb-0">Selected Works.</h2>
+          </div>
+          <div class="col-xxl-6">
+            <p class="secDetails mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+          </div>
         </div>
-        <img src="./images/portfolioImage.png" alt="portfolioImage" width="86" height="auto" class="portfolioImage">
-     </section>
+        <div class="row g-xxl-5">
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="card-head">
+                <img
+                  src="./images/portfollioImage_1.png"
+                  width="100%"
+                  height="auto"
+                  alt="portfollioImage_1"
+                />
+              </div>
+              <div class="card-body px-xxl-5">
+                <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="card-head">
+                <img
+                  src="./images/portfollioImage_1.png"
+                  width="100%"
+                  height="auto"
+                  alt="portfollioImage_1"
+                />
+              </div>
+              <div class="card-body px-xxl-5">
+                <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="card-head">
+                <img
+                  src="./images/portfollioImage_1.png"
+                  width="100%"
+                  height="auto"
+                  alt="portfollioImage_1"
+                />
+              </div>
+              <div class="card-body px-xxl-5">
+                <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="card-head">
+                <img
+                  src="./images/portfollioImage_1.png"
+                  width="100%"
+                  height="auto"
+                  alt="portfollioImage_1"
+                />
+              </div>
+              <div class="card-body px-xxl-5">
+                <h3 class="mb-xxl-2">Creativa - Elementor Template Kit</h3>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/portfolioImage.png"
+        alt="portfolioImage"
+        width="86"
+        height="auto"
+        class="portfolioImage"
+      />
+    </section>
     <!-- portfolio end -->
 
     <!-- testimony start -->
-     <section id="testimony">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="secSubTitle text-center mb-3">testimony</p>
-                    <h2 class="secTitle text-center mb-3">What Our Clients Say.</h2>
-                    <p class=" secDetails text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="stars">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <p>
-                            Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
-                        </p>
-                        <div class="testProfile">
-                            <!-- <img src="./images/testProfileImage" alt="testProfileImage" width="64" height="64"> -->
-                            <div class="d-flex gap-3">
-                                <div class="testProfileImageWrapper"></div>
-                                <div class="info">
-                                   <h4>David Gueta</h4>
-                                   <span>UI/UX Designer</span>
-                                </div>
-                            </div>
-                             <i class="fa-regular fa-message"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-6">
-                    <div class="card">
-                        <div class="stars">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <p>
-                            Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
-                        </p>
-                        <div class="testProfile">
-                            <!-- <img src="./images/testProfileImage" alt="testProfileImage" width="64" height="64"> -->
-                            <div class="d-flex gap-3">
-                                <div class="testProfileImageWrapper"></div>
-                                <div class="info">
-                                   <h4>David Gueta</h4>
-                                   <span>UI/UX Designer</span>
-                                </div>
-                            </div>
-                             <i class="fa-regular fa-message"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="testimony">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="secSubTitle text-center mb-3">testimony</p>
+            <h2 class="secTitle text-center mb-3">What Our Clients Say.</h2>
+            <p class="secDetails text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+          </div>
         </div>
-     </section>
+        <div class="row g-5">
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>
+                Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+                Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+                lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              </p>
+              <div class="testProfile">
+                <!-- <img src="./images/testProfileImage" alt="testProfileImage" width="64" height="64"> -->
+                <div class="d-flex gap-3">
+                  <div class="testProfileImageWrapper"></div>
+                  <div class="info">
+                    <h4>David Gueta</h4>
+                    <span>UI/UX Designer</span>
+                  </div>
+                </div>
+                <i class="fa-regular fa-message"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p>
+                Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+                Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+                lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              </p>
+              <div class="testProfile">
+                <!-- <img src="./images/testProfileImage" alt="testProfileImage" width="64" height="64"> -->
+                <div class="d-flex gap-3">
+                  <div class="testProfileImageWrapper"></div>
+                  <div class="info">
+                    <h4>David Gueta</h4>
+                    <span>UI/UX Designer</span>
+                  </div>
+                </div>
+                <i class="fa-regular fa-message"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- testimony end -->
 
     <!-- contact start -->
-     <section id="contact">
-        <div class="container px-0">
-            <div class="contactWrapper">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="title">Interested Working With me? Let's connect!</h2>
-                        <a href="#" class="commonBtn active py-xxl-4 px-xxl-5"><i class="fa-regular fa-envelope me-1"></i>contact me</a>
-                    </div>
-                </div>
-                <div class="round1"></div>
-                <div class="round2"></div>
-                <div class="round3"></div>
-                <div class="round4"></div>
+    <section id="contact">
+      <div class="container px-0">
+        <div class="contactWrapper">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="title">Interested Working With me? Let's connect!</h2>
+              <a href="#" class="commonBtn active py-xxl-4 px-xxl-5">
+                <i class="fa-regular fa-envelope me-1"></i>contact me
+              </a>
             </div>
+          </div>
+          <div class="illustration_1"></div>
+          <div class="illustration_2"></div>
+          <div class="illustration_3"></div>
+          <div class="illustration_4"></div>
         </div>
-     </section>
+      </div>
+    </section>
     <!-- contact end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- footer part start -->
+    <footer id="footer">
+      <div class="footerWrapper">
+        <div class="container">
+          <div class="row footerBorder">
+            <div class="col-xxl-4 offset-xxl-1">
+              <a href="./index.html">
+                <img src="./images/footerLogo.png" alt="footerLogo" width="252" height="auto" class="footerLogo">
+              </a>
+              <p class="details mt-xxl-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit.
+              </p>
+            </div>
+            <div class="col-xxl-3 offset-xxl-3">
+              <ul class=" footerInfo m-0 p-0">
+                <li class="mb-xxl-3">
+                  <i class="fa-regular fa-envelope me-xxl-3"></i>
+                  inquiry@portostar.com
+                </li>
+                <li class="mb-xxl-3">
+                  <i class="fa-solid fa-phone me-xxl-3"></i>
+                  (001) 1231 3435
+                </li>
+                <li class="d-flex gap-xxl-3">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-solid fa-globe"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+         <div class="row py-xxl-5">
+          <div class="col-xxl-5 offset-xxl-1">
+            <ul class="footerBottom d-flex align-items-center gap-3 m-0 p-0">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">works</a></li>
+            </ul>
+          </div>
+          <div class="col-xxl-3 offset-xxl-3">
+            <p >© All Right Reserved</p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer part End -->
 
     <!-- Fontawesome CDN Link -->
-    <script src="https://kit.fontawesome.com/5e82e4ce8d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5e82e4ce8d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap JS File -->
-     <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

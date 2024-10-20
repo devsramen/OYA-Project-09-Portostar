@@ -9,9 +9,9 @@
     -o-transition: all linear 0.3s;
 }
 /* common css start */
-.container{
+/* .container{
     border: 1px dotted green;
-}
+} */
 body{
     font-family: var(--poppins);
     font-size: var(--fontSize16);
@@ -306,14 +306,6 @@ span{
     justify-content: space-between;
     align-items: center;
 }
-/* #testimony .card .testProfile img{
-    background-color: var(--themeColor);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-} */
 #testimony .card .testProfileImageWrapper{
     width: 64px;
     height: 64px;
@@ -369,7 +361,7 @@ span{
     letter-spacing: 0.5px;
     color: #333333;
 }
-.round1{
+#contact .illustration_1{
     width: 25px;
     height: 25px;
     background-color: #F1F0FB;
@@ -383,7 +375,7 @@ span{
     left: 537px;
     z-index: 1px;
 }
-.round2{
+#contact .illustration_2{
     width: 41px;
     height: 41px;
     background-color: #F1F0FB;
@@ -397,7 +389,7 @@ span{
     right: 202px;
     z-index: 1px;
 }
-.round3{
+#contact .illustration_3{
     width: 369px;
     height: 369px;
     background-color: #F1F0FB;
@@ -411,7 +403,7 @@ span{
     right: -28px;
     z-index: 1px;
 }
-.round4{
+#contact .illustration_4{
     width: 73px;
     height: 73px;
     background-color: #F1F0FB;
@@ -427,6 +419,41 @@ span{
 }
 /* contact end */
 
+/* footer part start */
+#footer{
+    color: #fff;
+}
+#footer .footerWrapper{
+    width: 92.709%;
+    margin: 0 auto;
+    background-color: #333333;
+    padding-top: 112px;
+    border-radius: 30px 30px 0 0;
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+}
+#footer .footerBorder{
+    padding-bottom: 98px;
+    border-bottom: 1px solid #404040;
+    /* margin-bottom: 50px; */
+}
+#footer .details,
+#footer .footerInfo li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+#footer .footerBottom li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+/* footer part end */
 
 
 
@@ -439,13 +466,15 @@ span{
 
 
 
-.navbar,
+/* .navbar,
 #banner,
 #counter,
 #service,
 #graphic,
 #client,
 #portfolio,
+#contact,
+#footer,
 #testimony{
     display: none;
-}
+} */
