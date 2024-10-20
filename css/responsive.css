@@ -8,6 +8,48 @@
         color: #fff;
     }
 
+    /* nav part start */
+    .nav-link {
+        line-height: 15px;
+    }
+    #navbarSupportedContent .commonBtn {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+    #nav .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    #nav button, input, optgroup, select, textarea {
+        margin: 11px 1px;
+    }
+
+    /* nav part End */
+
+    /* banner part start */
+    #banner {
+        padding: 0 0 50px;
+        text-align: center;
+        background-color: #F9F9FC;
+    }
+    #banner .bannerTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #banner .bannerImage{
+        max-width: 95%;
+        margin-top: 30px;
+    }
+    /* banner part End */
+
+    /* counter start */
+    
+    /* counter end */
 
 
 
