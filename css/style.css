@@ -85,9 +85,10 @@ span{
 /* .navbar {
     padding: 30px 0;
 } */
-.navbar {
+#nav {
     width: 100%;
-    position: absolute;
+    background-color: #F9F9FC;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 999999999;
