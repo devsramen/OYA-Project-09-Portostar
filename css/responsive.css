@@ -48,9 +48,63 @@
     /* banner part End */
 
     /* counter start */
-    
+    #counter span {
+        font-size: calc(48px * .475 + 2.1vw);
+        line-height: 1.5;
+    }
     /* counter end */
 
+    /* service start */
+    #service {
+        padding: 85px 0 50px;
+    }
+    #service .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #service .card .card-body h3 {
+        font-size: calc(20px * .90 + 0.15vw);
+        line-height: 32px;
+    }
+    /* service end */
+    
+    /* graphic start */
+    #graphic{
+        padding: 50px 0;
+        text-align: center;
+    }
+    #graphic .secTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    /* graphic end */
+    
+    /* Client start */
+    #client {
+        padding: 55px 0;
+    }
+    #client .clientImage{
+        width: 100%;
+    }
+    /* Client end */
+
+    /* portfolio start */
+    #portfolio{
+        padding: 58px 0;
+        text-align: center;
+    }
+    #portfolio .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-transform: capitalize;
+    }
+    #portfolio .secDetails {
+        padding-right: unset;
+        margin-top: 15px;
+    }
+    /* portfolioClient end */
 
 
 }

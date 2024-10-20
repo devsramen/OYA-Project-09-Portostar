@@ -215,6 +215,10 @@ span{
 #client{
     padding: 135px 0 116px;
 }
+#client .clientImage{
+    width: 226px;
+    height: auto;
+}
 /* client end */
 
 /* portfolio start */
@@ -471,9 +475,9 @@ span{
 /* #banner, */
 /* #counter, */
 /* #service, */
-#graphic,
-#client,
-#portfolio,
+/* #graphic, */
+/* #client, */
+/* #portfolio, */
 #contact,
 #footer,
 #testimony{
