@@ -1,13 +1,6 @@
 
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
-    #nav {
-        background: red;
-    }
-    .nav-link{
-        color: #fff;
-    }
-
     /* nav part start */
     .nav-link {
         line-height: 15px;
@@ -80,6 +73,9 @@
         text-align: center;
         line-height: 1.5;
     }
+    #graphic .graphicImage {
+        height: 50%;
+    }
     /* graphic end */
     
     /* Client start */
@@ -96,6 +92,9 @@
         padding: 58px 0;
         text-align: center;
     }
+    #portfolio .portfolioImage {
+        left: 34%;
+    }
     #portfolio .secTitle {
         font-size: calc(56px * .475 + 2.1vw);
         text-transform: capitalize;
@@ -106,53 +105,530 @@
     }
     /* portfolioClient end */
 
+    /* testimony start */
+    #testimony {
+        padding-top: 50px;
+    }
+    .secTitle {
+        font-size: calc(44px * .663 + 0.9vw);
+        line-height: calc(56px * .663 + 0.9vw);
+    }
+    #testimony .card {
+        padding: 25px;
+    }
+    #testimony .card p {
+        font-weight: 400;
+    }
+    #testimony .card i {
+        font-size: calc(43.5px * .663 + 0.9vw);
+    }
+    #testimony .card .testProfileImageWrapper {
+        width: 55px;
+        height: 55px;
+    }
+    #testimony .card .info h4 {
+        margin-bottom: 2px;
+    }
+    /* testimony End */
 
+    /* contact start */
+    #contact {
+        margin: 50px 0;
+    }
+    #contact .title {
+        max-width: unset;
+        font-size: calc(50px * .475 + 2.1vw);
+        line-height: calc(72px * .475 + 2.1vw);
+    }
+    #contact .contactWrapper {
+        padding: 68px 0;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    #contact .illustration_1 {
+        width: 25px;
+        height: 25px;
+        top: 31px;
+        right: 30px;
+    }
+    #contact .illustration_2 {
+        width: 30px;
+        height: 30px;
+        top: 56px;
+    }
+    #contact .illustration_3 {
+        width: 200px;
+        height: 200px;
+    }
+    #contact .illustration_4 {
+        width: 45px;
+        height: 45px;
+        left: 45px;
+    }
+    /* contact end */
+    
+    /* footer start */
+    #footer {
+        text-align: center;
+    }
+    #footer .footerWrapper {
+        padding-top: 70px;
+    }
+    #footer .footerLogo{
+        width: 209px;
+    }
+    #footer .details, #footer .footerInfo li {
+        line-height: 1.5;
+    }
+    #footer .footerBorder {
+        padding-bottom: 50px;
+    }
+    /* footer End */
 }
 
 
 /* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
-    #nav {
-        background: gold;
+    
+    /* nav part start */
+    .nav-link {
+        line-height: 15px;
     }
-    .nav-link{
-        color: #000;
+    #navbarSupportedContent .commonBtn {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+    #nav .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    #nav button, input, optgroup, select, textarea {
+        margin: 11px 1px;
     }
 
+    /* nav part End */
 
+    /* banner part start */
+    #banner {
+        padding: 0 0 50px;
+        text-align: center;
+        background-color: #F9F9FC;
+    }
+    #banner .bannerTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #banner .bannerImage{
+        max-width: 95%;
+        margin-top: 30px;
+    }
+    /* banner part End */
 
+    /* counter start */
+    #counter span {
+        font-size: calc(48px * .475 + 2.1vw);
+        line-height: 1.5;
+    }
+    /* counter end */
 
+    /* service start */
+    #service {
+        padding: 85px 0 50px;
+    }
+    #service .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #service .card .card-body h3 {
+        font-size: calc(20px * .90 + 0.15vw);
+        line-height: 32px;
+    }
+    /* service end */
+    
+    /* graphic start */
+    #graphic{
+        padding: 50px 0;
+        text-align: center;
+    }
+    #graphic .secTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #graphic .graphicImage {
+        height: 50%;
+    }
+    /* graphic end */
+    
+    /* Client start */
+    #client {
+        padding: 55px 0;
+    }
+    #client .clientImage{
+        width: 100%;
+    }
+    /* Client end */
 
+    /* portfolio start */
+    #portfolio{
+        padding: 58px 0;
+        text-align: center;
+    }
+    #portfolio .portfolioImage {
+        left: 34%;
+    }
+    #portfolio .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-transform: capitalize;
+    }
+    #portfolio .secDetails {
+        padding-right: unset;
+        margin-top: 15px;
+    }
+    /* portfolioClient end */
+
+    /* testimony start */
+    #testimony {
+        padding-top: 50px;
+    }
+    .secTitle {
+        font-size: calc(44px * .663 + 0.9vw);
+        line-height: calc(56px * .663 + 0.9vw);
+    }
+    #testimony .card p {
+        font-weight: 400;
+    }
+    #testimony .card i {
+        font-size: calc(43.5px * .663 + 0.9vw);
+    }
+    #testimony .card .testProfileImageWrapper {
+        width: 55px;
+        height: 55px;
+    }
+    #testimony .card .info h4 {
+        margin-bottom: 2px;
+    }
+    /* testimony End */
+
+    /* contact start */
+    #contact {
+        margin: 50px 0;
+    }
+    #contact .title {
+        max-width: unset;
+        font-size: calc(50px * .475 + 2.1vw);
+        line-height: calc(72px * .475 + 2.1vw);
+    }
+    #contact .contactWrapper {
+        padding: 68px 0;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    #contact .illustration_1 {
+        width: 25px;
+        height: 25px;
+        top: 31px;
+        right: 30px;
+    }
+    #contact .illustration_2 {
+        width: 30px;
+        height: 30px;
+        top: 56px;
+    }
+    #contact .illustration_3 {
+        width: 200px;
+        height: 200px;
+    }
+    #contact .illustration_4 {
+        width: 45px;
+        height: 45px;
+        left: 45px;
+    }
+    /* contact end */
+    
+    /* footer start */
+    #footer {
+        text-align: center;
+    }
+    #footer .footerWrapper {
+        padding-top: 70px;
+    }
+    #footer .footerLogo{
+        width: 209px;
+    }
+    #footer .details, #footer .footerInfo li {
+        line-height: 1.5;
+    }
+    #footer .footerBorder {
+        padding-bottom: 70px;
+    }
+    /* footer End */
 }
 
 
 
 /* (md) Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.999px) {
-    #nav {
-        background: #D2691E;
-        padding-top: 15px;
-    }
-    .nav-link{
-        color: #ADFF2F;
-    }
-
 
     
+    /* nav part start */
+    .nav-link {
+        line-height: 15px;
+    }
+    #navbarSupportedContent .commonBtn {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    #nav button, input, optgroup, select, textarea {
+        margin: 11px 1px;
+    }
 
+    /* nav part End */
+
+    /* banner part start */
+    #banner {
+        padding: 0 0 50px;
+        text-align: center;
+        background-color: #F9F9FC;
+    }
+    #banner .bannerTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #banner .bannerImage{
+        max-width: 95%;
+        margin-top: 30px;
+    }
+    /* banner part End */
+
+    /* counter start */
+    #counter span {
+        font-size: calc(48px * .475 + 2.1vw);
+        line-height: 1.5;
+    }
+    /* counter end */
+
+    /* service start */
+    #service {
+        padding: 85px 0 50px;
+    }
+    #service .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #service .card .card-body h3 {
+        font-size: calc(20px * .90 + 0.15vw);
+        line-height: 32px;
+    }
+    /* service end */
+    
+    /* graphic start */
+    #graphic{
+        padding: 50px 0;
+        text-align: center;
+    }
+    #graphic .secTitle {
+        max-width: unset;
+        font-size: calc(60px * .475 + 2.1vw);
+        text-align: center;
+        line-height: 1.5;
+    }
+    #graphic .graphicImage {
+        height: 50%;
+    }
+    #graphic .secDetails {
+        max-width: 584px;
+        margin: 0 auto;
+    }
+    /* graphic end */
+    
+    /* Client start */
+    #client {
+        padding: 55px 0;
+    }
+    #client .clientImage{
+        width: 100%;
+    }
+    /* Client end */
+
+    /* portfolio start */
+    #portfolio{
+        padding: 58px 0;
+        text-align: center;
+    }
+    #portfolio .portfolioImage {
+        left: calc(50% - 89px);
+    }
+    #portfolio .secTitle {
+        font-size: calc(56px * .475 + 2.1vw);
+        text-transform: capitalize;
+    }
+    #portfolio .secDetails {
+        padding-right: unset;
+        margin-top: 15px;
+    }
+    #portfolio .card {
+        max-width: 583px;
+        margin: 0 auto;
+    }
+    /* portfolioClient end */
+
+    /* testimony start */
+    #testimony {
+        padding-top: 50px;
+    }
+    #testimony .testiBg {
+        height: 360px;
+    }
+    .secTitle {
+        font-size: calc(44px * .663 + 0.9vw);
+        line-height: calc(56px * .663 + 0.9vw);
+    }
+    #testimony .card {
+        padding: 25px;
+    }
+    #testimony .card p {
+        font-weight: 400;
+    }
+    #testimony .card i {
+        font-size: calc(43.5px * .663 + 0.9vw);
+    }
+    #testimony .card .testProfileImageWrapper {
+        width: 55px;
+        height: 55px;
+    }
+    #testimony .card .info h4 {
+        margin-bottom: 2px;
+    }
+    /* testimony End */
+
+    /* contact start */
+    #contact {
+        margin: 50px 0;
+    }
+    #contact .title {
+        max-width: 514px;
+        font-size: calc(50px * .475 + 2.1vw);
+        line-height: calc(72px * .475 + 2.1vw);
+    }
+    #contact .contactWrapper {
+        padding: 68px 0;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    #contact .illustration_1 {
+        width: 25px;
+        height: 25px;
+        top: 31px;
+        left: calc(50% - 110px);
+    }
+    #contact .illustration_2 {
+        width: 30px;
+        height: 30px;
+        top: 56px;
+    }
+    #contact .illustration_3 {
+        width: 270px;
+        height: 270px;
+    }
+    #contact .illustration_4 {
+        width: 45px;
+        height: 45px;
+        left: 75px;
+        bottom: 50px;
+    }
+    /* contact end */
+    
+    /* footer start */
+    #footer {
+        text-align: center;
+    }
+    #footer .footerWrapper {
+        padding-top: 70px;
+    }
+    #footer .footerLogo{
+        width: 209px;
+    }
+    #footer .details{
+        /* max */
+        line-height: 1.5;
+    }
+    #footer .footerInfo li {
+        line-height: 1.5;
+    }
+    #footer .footerBorder {
+        padding-bottom: 70px;
+    }
+    /* footer End */
 }
 
 
 
 /* (lg) Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.999px) {
-    #nav {
-        background: skyblue;
+    /* banner Start */
+    #banner {
+        padding: 100px 0;
     }
-    .nav-link{
-        color: #F30089;
+    #banner .secSubTitle {
+        margin-top: 100px;
     }
+    /* banner end */
 
+    /* service start */
+    #service {
+        padding: 100px 0;
+    }
+    /* service end */
+
+    /* client start */
+    #client {
+        padding: 70px 0;
+    }
+    #client .clientImage {
+        width: 210px;
+    }
+    /* client end */
+
+    /* portfolio start */
+    #portfolio {
+        padding: 20px 0 80px;
+    }
+    /* portfolio end */
+    
+    /* testimony start */
+    #testimony {
+        padding-top: 90px;
+    }
+    /* testimony end */
+
+    /* footer start */
+    .footerBottom{
+        margin-left: 50px;
+    }
+    /* footer end */
 
 
 
@@ -162,12 +638,7 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.999px) {
-    #nav {
-        background: greenyellow;
-    }
-    .nav-link{
-        color: #0227F1;
-    }
+    
 
 
 
@@ -181,16 +652,7 @@
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    /* #nav {
-        background: blueviolet;
-    }
-    .nav-link{
-        color: #fff;
-    }     */
-
-
-
+@media (min-width: 1400px) {   
 
 
 
